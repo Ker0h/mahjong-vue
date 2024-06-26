@@ -1,5 +1,7 @@
 <script setup>
-import TileTable from './TileTable.vue'
+import SuitsTable from './tile-table/SuitsTable.vue'
+import HonoursTable from './tile-table/HonoursTable.vue'
+import BonusTable from './tile-table/BonusTable.vue'
 </script>
 
 <template>
@@ -13,21 +15,23 @@ import TileTable from './TileTable.vue'
         suit having tiles numbered from 1 to 9.
       </p>
 
+      <SuitsTable />
+
       <p>
         There are also the Honour tiles which consist of the Wind and Dragon tiles. The Wind tiles
-        are East, South, West, and North. The Dragon tiles are Red, Green, and White. <br />
+        are East, South, West, and North. The Dragon tiles are Red, Green, and White.
+      </p>
+
+      <HonoursTable />
+
+      <p>
         Lastly there are the Flower tiles which are optional and are used in some variations of the
         game, including Hong Kong style Mahjong. <br />
         Flower tiles are divided into the regular Flower tiles and Season tiles. Unlike with the
         suits and Honour tiles, there are only one of each Flower tile.
       </p>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="col-12">
-      <p>The following table shows the tiles used in Hong Kong style Mahjong.</p>
-      <TileTable />
+      <BonusTable />
     </div>
   </div>
 </template>

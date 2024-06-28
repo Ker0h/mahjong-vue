@@ -26,26 +26,27 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="tiles"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
+          <li class="nav-item">
+            <router-link :to="{ name: 'tiles' }" class="nav-link" active-class="active"
+              >Tiles</router-link
             >
-              Rules
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Tiles</a>
-              <a class="dropdown-item" href="#">Gameplay</a>
-              <a class="dropdown-item" href="#">Scoring</a>
-            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="history">History & Culture</a>
+            <router-link :to="{ name: 'rules' }" class="nav-link" active-class="active"
+              >Rules</router-link
+            >
+          </li>
+
+          <li class="nav-item">
+            <router-link :to="{ name: 'scoring' }" class="nav-link" active-class="active"
+              >Scoring</router-link
+            >
+          </li>
+
+          <li class="nav-item">
+            <router-link :to="{ name: 'history' }" class="nav-link" active-class="active"
+              >History & Culture</router-link
+            >
           </li>
         </ul>
       </div>

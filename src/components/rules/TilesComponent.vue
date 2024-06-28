@@ -17,12 +17,16 @@ import BonusTable from './tile-table/BonusTable.vue'
 
       <SuitsTable />
 
+      <div class="spacing"></div>
+
       <p>
         There are also the Honour tiles which consist of the Wind and Dragon tiles. The Wind tiles
         are East, South, West, and North. The Dragon tiles are Red, Green, and White.
       </p>
 
       <HonoursTable />
+
+      <div class="spacing"></div>
 
       <p>
         Lastly there are the Flower tiles which are optional and are used in some variations of the

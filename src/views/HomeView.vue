@@ -3,7 +3,7 @@
 <template>
   <h1>Learn Mahjong, The Chinese Way!</h1>
   <div class="row">
-    <div class="col-6">
+    <div class="col-12">
       <p>
         Learn how to play Mahjong, the Chinese way. Specifically how it is played in Hong Kong. You
         can learn the rules, the scoring, and the strategies of the game. Later, you'll be able to
@@ -26,7 +26,9 @@
       </div>
     </div>
 
-    <div class="col-6">
+    <div class="spacing"></div>
+
+    <div class="col-12">
       <p>
         Mahjong is played and loved by millions of people around the world, mostly in Chinese
         diasporas. It's importance in Chinese culture is so great that it's considered one of the

@@ -89,7 +89,26 @@
 
       <h2>Gambling Culture</h2>
       <div>
-        <p></p>
+        <p>
+          Even though currently the Chinese government is more lenient towards gambling than it was
+          during the time of Mao, it is still illegal. That's why Chinese citizens will often play
+          Mahjong for money in secret, or in a more public setting, but without money involved.
+          Visiting a Mahjong parlor in on of the 'Special Administrative Regions' (SAR) of China,
+          like Macau or Hong Kong, is also quite popular.
+          <br />
+          One of the reasons Mahjong is still popular today is because it's a very social game.
+          People sit across from one another and the scrambling and dividing of tiles takes
+          significantly longer than with cards during a card game, allowing for conversations to
+          more easily come up.
+          <br />
+          Most importantly however, is that gambling as a whole is just an unbeatable concept in
+          China. The prospect of relatively quick and 'easy' riches is just too tempting for many
+          people to resist. And the gathering of wealth and as such, well being, is one of the most
+          important parts of modern Chinese culture.
+          <br />
+          As they say during New Years: "恭喜發財！" (Gōngxǐ fācái!) which means "Congratulations
+          and be prosperous!", or more literally: "Let's get rich and be prosperous!".
+        </p>
       </div>
     </div>
   </div>

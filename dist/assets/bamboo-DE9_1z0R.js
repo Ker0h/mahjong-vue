@@ -1,0 +1,1 @@
+const s="/mahjong-vue/assets/plum-BhmAIAJi.svg",o="/mahjong-vue/assets/orchid-DzZxi3k9.svg",a="/mahjong-vue/assets/chrysanthemum-CMRhopy0.svg",t="/mahjong-vue/assets/bamboo-BRjgfLV0.svg";export{s as _,o as a,a as b,t as c};

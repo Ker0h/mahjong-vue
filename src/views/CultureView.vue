@@ -1,0 +1,120 @@
+<script setup></script>
+
+<template>
+  <div class="row">
+    <div class="col-12">
+      <h1>Culture</h1>
+      <div>
+        <p>
+          Not only does Mahjong have aninteresting history, it's also very important to Chinese
+          culture. The game contains some references to Confucianism, one of the three main
+          religions of China. There are also many superstitions surrounding the game. Lastly there
+          is a whole gambling culture surrounding Mahjong, which is still very much alive today.
+        </p>
+      </div>
+
+      <h2>The Four Gentlemen</h2>
+      <div>
+        <p>
+          Of the different tiles that are used in Mahjong, you might have seen the ones knows as
+          Season or Flower tiles. The flowers on these tiles are the plum, the orchid, the bamboo
+          and the chrysenthemum.
+          <br />
+          These flowers are also known as the "Four Gentlemen" in Confucianism and are often seen in
+          many Classical Chinese art, where they depict the four seasons.
+        </p>
+
+        <table>
+          <tr>
+            <th>Plum</th>
+            <th>Orchid</th>
+            <th>Bamboo</th>
+            <th>Chrysanthemum</th>
+          </tr>
+          <tr>
+            <td>
+              <span><img src="/src/assets/images/tile-art/plum.svg" /></span>
+            </td>
+            <td>
+              <span><img src="/src/assets/images/tile-art/orchid.svg" /></span>
+            </td>
+            <td>
+              <span><img src="/src/assets/images/tile-art/chrysanthemum.svg" /></span>
+            </td>
+            <td>
+              <span><img src="/src/assets/images/tile-art/bamboo.svg" /></span>
+            </td>
+          </tr>
+        </table>
+
+        <p>
+          These four flowers are know as the "Four Gentlemen" or the "Four Nobles" because of the
+          importance of the nobility in Confucianism. Each one of these plants represents a noble
+          virtue and is associated with a season.
+        </p>
+
+        <p>
+          The plum for example, represents inner beauty and humility because, while it isn't very
+          impressive, the way it blossoms in winter <i>is</i>.
+        </p>
+        <p>
+          The orchid on the other hand, represents nobility and humanity, because it's a very
+          beautiful flower that blooms in spring.
+        </p>
+        <p>
+          The bamboo represents integrity and modesty, because it's a very strong plant that bends
+          with the wind. It bends, but does not give in.
+        </p>
+        <p>
+          Lastly, the chrysanthemum blooms in autumn and signals the coming of winter. As such it
+          represents withstanding hardships and the ability to survive.
+        </p>
+      </div>
+
+      <h2>Superstitious Beliefs</h2>
+      <div>
+        <p>
+          Considering playing Mahjong requires both strategy and luck, it is not surprising there
+          are a few superstitions surrounding the game. For example, one should not tap someone on
+          the shoulder during the game, as this might disrupt their winning streak, even across
+          multiple rounds. On the contrary, it is believed that someone can 'wash away' bad luck. So
+          player can often be seen visiting the toilet after a series of losses, just to wash their
+          hands. Also, it is considered bad luck to have books on or near a Mahjong table as the
+          words for 'book' (書/Shū) and 'to lose' (失去/Shīqù) sound somewhat similiar in Chinese.
+          Lastly, in a similiar vein, one should never discard four 'West' tiles after one another,
+          as the words for 'four' (四/Sì), 'West' (西/Xī) and 'death' (死/Sǐ) sound the same in
+          Chinese.
+        </p>
+      </div>
+
+      <h2>Gambling Culture</h2>
+      <div>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  text-align: left;
+  padding: 0.5rem;
+}
+td {
+  padding: 0.5rem;
+}
+span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+}
+img {
+  width: 100px;
+  height: auto;
+}
+</style>

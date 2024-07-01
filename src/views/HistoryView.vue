@@ -35,7 +35,7 @@
         Babcock was so taken with the game that he decided to bring it back to the United States and
         introduce it to the American public. He made a few changes to the game, such as adding joker
         tiles and changing the scoring system, to make it more appealing to Western players. The
-        game became so popular that Mahjong related exports helpen to create new jobs and otherwise
+        game became so popular that Mahjong related exports helped to create new jobs and otherwise
         boost the economy of the newly established Republic of China.
       </p>
     </div>

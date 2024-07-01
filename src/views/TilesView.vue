@@ -23,6 +23,7 @@ import TilesComponent from '@/components/rules/TilesComponent.vue'
 
       <TilesComponent />
 
+      <hr />
       <p>Now you know what the tiles look like, let's learn how to start a game of Mahjong.</p>
       <button class="btn btn-outline-dark">
         <router-link :to="{ name: 'rules' }" class="nav-link" active-class="active"

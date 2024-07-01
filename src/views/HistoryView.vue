@@ -22,58 +22,65 @@
           the "Four Great Inventions of China".
         </p>
       </div>
+    </div>
 
-      <h2>Spread to the West</h2>
-      <div>
-        <p>
-          Mahjong didn't only become popular in China, it also became well known in the West. The
-          game was first introduced to the American public in the 1920's by a man named Joseph P.
-          Babcock, who as the story goes discovered the game while sailing on a ship across the
-          Yangtze River.
-        </p>
-        <p>
-          Babcock was so taken with the game that he decided to bring it back to the United States
-          and introduce it to the American public. He made a few changes to the game, such as adding
-          joker tiles and changing the scoring system, to make it more appealing to Western players.
-          The game became so popular that Mahjong related exports helpen to create new jobs and
-          otherwise boost the economy of the newly established Republic of China.
-        </p>
-      </div>
+    <h2>Spread to the West</h2>
+    <div class="col-8">
+      <p>
+        Mahjong didn't only become popular in China, it also became well known in the West. The game
+        was first introduced to the American public in the 1920's by a man named Joseph P. Babcock,
+        who as the story goes discovered the game while sailing on a ship across the Yangtze River.
+      </p>
+      <p>
+        Babcock was so taken with the game that he decided to bring it back to the United States and
+        introduce it to the American public. He made a few changes to the game, such as adding joker
+        tiles and changing the scoring system, to make it more appealing to Western players. The
+        game became so popular that Mahjong related exports helpen to create new jobs and otherwise
+        boost the economy of the newly established Republic of China.
+      </p>
+    </div>
 
-      <h2>Mahjong under Communism</h2>
-      <div>
-        <p>
-          The growth of Mahjong in China however, hit a roadblock, when in 1949 Chairman Mao Zedong
-          declared the game illegal on grounds it promoted gambling. Since he thought that a worker
-          should spend their money on his family and not on gambling, all forms of gambling were
-          banned in China, which they still are today.
-        </p>
-        <p>
-          The other main reson Mahjong was banned however, was because of it's relation to culture
-          under Imperial rule. So it was that many Mahjong related paraphernelia were repossesed or
-          destroyed during "The Cultural Revolution".
-          <br />
-          After the rule of Mao ended, Mahjong started to regain it's popularity again, as laws grew
-          slightly more lenient.
-        </p>
-      </div>
+    <div class="col-4">
+      <span><img src="/src/assets/images/rules_of_mah_jongg.jpg" /></span>
+    </div>
 
-      <hr />
+    <h2>Mahjong under Communism</h2>
+    <div class="col-12">
+      <p>
+        The growth of Mahjong in China however, hit a roadblock, when in 1949 Chairman Mao Zedong
+        declared the game illegal on grounds it promoted gambling. Since he thought that a worker
+        should spend their money on his family and not on gambling, all forms of gambling were
+        banned in China, which they still are today.
+      </p>
+      <p>
+        The other main reson Mahjong was banned however, was because of it's relation to culture
+        under Imperial rule. So it was that many Mahjong related paraphernelia were repossesed or
+        destroyed during "The Cultural Revolution".
+        <br />
+        After the rule of Mao ended, Mahjong started to regain it's popularity again, as laws grew
+        slightly more lenient.
+      </p>
+    </div>
 
-      <div>
-        <p>
-          Aside from an interesting history, Mahjong also has great cultural significance to China.
-          With many references to Confucianism, superstitions surrounding it, and its very own
-          gambling culture.
-        </p>
-        <button class="btn btn-outline-dark">
-          <router-link :to="{ name: 'culture' }" class="nav-link" active-class="active"
-            >Culture</router-link
-          >
-        </button>
-      </div>
+    <hr />
+
+    <div class="col-12">
+      <p>
+        Aside from an interesting history, Mahjong also has great cultural significance to China.
+        With many references to Confucianism, superstitions surrounding it, and its very own
+        gambling culture.
+      </p>
+      <button class="btn btn-outline-dark">
+        <router-link :to="{ name: 'culture' }" class="nav-link" active-class="active"
+          >Culture</router-link
+        >
+      </button>
     </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+img {
+  width: 60%;
+}
+</style>

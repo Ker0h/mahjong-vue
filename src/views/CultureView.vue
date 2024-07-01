@@ -6,12 +6,14 @@
       <h1>Culture</h1>
       <div>
         <p>
-          Not only does Mahjong have aninteresting history, it's also very important to Chinese
+          Not only does Mahjong have an interesting history, it's also very important to Chinese
           culture. The game contains some references to Confucianism, one of the three main
           religions of China. There are also many superstitions surrounding the game. Lastly there
           is a whole gambling culture surrounding Mahjong, which is still very much alive today.
         </p>
       </div>
+
+      <div class="spacing"></div>
 
       <h2>The Four Gentlemen</h2>
       <div>
@@ -69,7 +71,18 @@
           Lastly, the chrysanthemum blooms in autumn and signals the coming of winter. As such it
           represents withstanding hardships and the ability to survive.
         </p>
+
+        <div>
+          <span><img class="painting" src="/src/assets/images/tao-yuanming.jpg" /></span>
+          <sub>
+            <a href="https://en.wikipedia.org/wiki/Tao_Yuanming" target="_blank">Tao Yuanming</a>
+            (365-427) was a Chinese poet who was known for his love of the chrysenthemums. This is a
+            painting by Zhao Lingran aptly titled: "Tao Yuanming Admiring Chrysanthemums".
+          </sub>
+        </div>
       </div>
+
+      <div class="spacing"></div>
 
       <h2>Superstitious Beliefs</h2>
       <div>
@@ -86,30 +99,41 @@
           same in Chinese.
         </p>
       </div>
+    </div>
 
-      <h2>Gambling Culture</h2>
-      <div>
-        <p>
-          Even though currently the Chinese government is more lenient towards gambling than it was
-          during the time of Mao, it is still illegal. That's why Chinese citizens will often play
-          Mahjong for money in secret, or in a more public setting, but without money involved.
-          Visiting a Mahjong parlor in the 'Special Administrative Regions' (SAR) of China, like
-          Macau or Hong Kong, is also quite popular.
-          <br />
-          One of the reasons Mahjong is still popular today is because it's a very social game.
-          People sit across from one another and the scrambling and dividing of tiles takes
-          significantly longer than with cards during a card game, allowing for conversations to
-          more easily come up.
-          <br />
-          Most importantly however, is that gambling as a whole is just an unbeatable concept in
-          China. The prospect of relatively quick and 'easy' riches is just too tempting for many
-          people to resist. And the gathering of wealth and as such, well being, is one of the most
-          important parts of modern Chinese culture.
-          <br />
-          As they say during New Years: "恭喜發財！" (Gōngxǐ fācái!) which means "Congratulations
-          and be prosperous!", or more literally: "Let's get rich and be prosperous!".
-        </p>
-      </div>
+    <div class="spacing"></div>
+
+    <h2>Gambling Culture</h2>
+    <div class="col-8">
+      <p>
+        Even though currently the Chinese government is more lenient towards gambling than it was
+        during the time of Mao, it is still illegal. That's why Chinese citizens will often play
+        Mahjong for money in secret, or in a more public setting, but without money involved.
+        Visiting a Mahjong parlor in the 'Special Administrative Regions' (SAR) of China, like Macau
+        or Hong Kong, is also quite popular.
+      </p>
+      <p>
+        One of the reasons Mahjong is still popular today is because it's a very social game. People
+        sit across from one another and the scrambling and dividing of tiles takes significantly
+        longer than with cards during a card game, allowing for conversations to more easily come
+        up.
+      </p>
+    </div>
+    <div class="col-4">
+      <span><img class="parlor" src="/src/assets/images/watercolor-mahjong-madness.jpg" /></span>
+    </div>
+    <div class="spacing"></div>
+
+    <div class="col-12">
+      <p>
+        Most importantly however, is that gambling as a whole is just an unbeatable concept in
+        China. The prospect of relatively quick and 'easy' riches is just too tempting for many
+        people to resist. And the gathering of wealth and as such, well being, is one of the most
+        important parts of modern Chinese culture.
+        <br />
+        As they say during New Years: "恭喜發財！" (Gōngxǐ fācái!) which means "Congratulations and
+        be prosperous!", or more literally: "Let's get rich and be prosperous!".
+      </p>
     </div>
   </div>
 </template>
@@ -135,5 +159,11 @@ span {
 img {
   width: 100px;
   height: auto;
+}
+.painting {
+  width: 100%;
+}
+.parlor {
+  width: 80%;
 }
 </style>

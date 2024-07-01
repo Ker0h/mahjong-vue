@@ -12,6 +12,11 @@
     position. Other methods include rolling the dice to determine the seating positions, with the
     highest roll being seated East then South and so on. Or simply assigning the seats randomly.
   </p>
+
+  <div class="col-md-12 col-6">
+    <span><img src="/src/assets/images/mahjong_game.jpg" /></span>
+  </div>
+
   <p>
     The game starts with the tiles being shuffled and built into four walls in the center of the
     table. Each wall is 18 tiles long and 2 tiles high. The walls are then pushed together to form a
@@ -20,4 +25,8 @@
   </p>
 </template>
 
-<style scoped></style>
+<style scoped>
+img {
+  width: 50%;
+}
+</style>

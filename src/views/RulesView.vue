@@ -10,7 +10,11 @@ import GameplayComponent from '@/components/rules/GameplayComponent.vue'
 
       <p>Now that you know how to start a game, let's learn how to play Mahjong.</p>
 
+      <div class="spacing"></div>
+
       <GameplayComponent />
+
+      <hr />
 
       <p>Finally, let's take a look at how scoring works.</p>
 
